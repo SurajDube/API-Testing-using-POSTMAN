@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "60fe94f8-d219-4ab6-bf64-e40d5c3d314c",
+		"name": "Mock Server RestFull Booker",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38605748"
+	},
+	"item": [
+		{
+			"name": "https://9b69d830-684a-4181-a3bf-e5eefaf36aa7.mock.pstmn.io/booking",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{mock_url}}/booking",
+					"host": [
+						"{{mock_url}}"
+					],
+					"path": [
+						"booking"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
